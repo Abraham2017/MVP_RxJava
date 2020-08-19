@@ -5,7 +5,6 @@ import com.google.gson.annotations.SerializedName;
 
 public class Pokemon {
 
-
     @SerializedName("name")
     private String name;
 
@@ -23,13 +22,5 @@ public class Pokemon {
     public Long getNumber() {
         String[] urlPartes = url.split("/");
         return Long.parseLong(urlPartes[urlPartes.length - 1]);
-    }
-
-    public String getUrl() {
-        return url;
-    }
-
-    public void setUrl(String url) {
-        this.url = url;
     }
 }
