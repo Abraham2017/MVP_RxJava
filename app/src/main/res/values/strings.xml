@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">UdemyPatterns</string>
+    <string name="init_sesion">Iniciar Sesión</string>
+    <string name="sign_up">Registrarse</string>
+</resources>
